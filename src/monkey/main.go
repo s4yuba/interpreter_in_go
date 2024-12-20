@@ -7,6 +7,7 @@ import (
 	"os/user"
 )
 
+// main function
 func main() {
 	user, err := user.Current()
 	if err != nil {
